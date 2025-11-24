@@ -10,8 +10,6 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
-import numpy as np
-import time
 import sys
 
 # make sure tokenizer is available
